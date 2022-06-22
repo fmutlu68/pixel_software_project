@@ -4,8 +4,8 @@ import 'package:flutter_pixel_project/core/base/view/base_view.dart';
 import 'package:flutter_pixel_project/core/extension/context_extension.dart';
 import 'package:flutter_pixel_project/core/extension/spacer_extension.dart';
 import 'package:flutter_pixel_project/core/extension/theme_extension.dart';
-import 'package:flutter_pixel_project/home/components/text_with_number_detail_card.dart';
-import 'package:flutter_pixel_project/home/view_model/home_view_model.dart';
+import 'package:flutter_pixel_project/view/home/nutritionist_detail/components/text_with_number_detail_card.dart';
+import 'package:flutter_pixel_project/view/home/nutritionist_detail/view_model/home_view_model.dart';
 
 part '../components/home_view_sheet_contents.dart';
 

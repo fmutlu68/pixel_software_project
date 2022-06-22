@@ -37,6 +37,8 @@ dependencies:
   mobx: ^2.0.6+1
   flutter_mobx: ^2.0.4
   mobx_codegen: ^2.0.5+2
+  hexcolor: ^2.0.7
+  flutter_swipecards: ^0.2.1
 
 dev_dependencies:
   flutter_test:

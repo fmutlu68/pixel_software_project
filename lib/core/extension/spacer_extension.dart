@@ -8,4 +8,7 @@ extension SpacerExtension on BuildContext {
   SizedBox get veryLowWidthSpacer => SizedBox(
         width: veryLowWidth,
       );
+  SizedBox get lowWidthSpacer => SizedBox(
+        width: lowWidth,
+      );
 }

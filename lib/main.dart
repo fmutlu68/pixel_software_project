@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'home/view/home_view.dart';
+import 'package:flutter_pixel_project/view/home/main/view/main_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Flutter Demo',
-      home: HomeView(),
+      home: MainView(),
       debugShowCheckedModeBanner: false,
     );
   }

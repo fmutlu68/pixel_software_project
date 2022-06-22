@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
 
-import 'package:flutter_pixel_project/home/model/home_model.dart';
+import 'package:flutter_pixel_project/view/home/nutritionist_detail/model/home_model.dart';
 
-import '../../core/base/model/base_view_model.dart';
+import '../../../../core/base/model/base_view_model.dart';
 
 part 'home_view_model.g.dart';
 
