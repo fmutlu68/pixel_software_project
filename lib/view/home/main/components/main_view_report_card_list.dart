@@ -1,9 +1,10 @@
 part of '../view/main_view.dart';
 
 extension MainViewReportCardListExtension on _MainViewState {
-  Widget get buildReportCardsList => SizedBox(
+  Widget get buildReportCardList => SizedBox(
         height: context.calculateDynamicHeight(32),
         child: GridView.builder(
+          physics: const NeverScrollableScrollPhysics(),
           padding: EdgeInsets.zero,
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
